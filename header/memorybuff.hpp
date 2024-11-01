@@ -14,7 +14,7 @@
 
 #define TABLE_SIZE 2
 
-struct sharedMem {
+struct shMem {
     int table[TABLE_SIZE];
     int in;
     int out;
